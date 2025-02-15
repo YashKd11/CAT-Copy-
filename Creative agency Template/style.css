@@ -1,0 +1,476 @@
+@font-face {
+    font-family: gilroy;
+    src: url(Gilroy-Light.otf);
+}
+
+@font-face {
+    font-family: gilbold;
+    src: url(Gilroy-ExtraBold.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    text-transform: capitalize;
+}
+
+#main {
+    width: 96vw;
+    min-height: 95vh;
+    margin: 2.6vh 0vw 4.6vh 1.3vw;
+    position: relative;
+}
+
+.page1 {
+    height: 95vh;
+    width: 100%;
+    background-image: url(55299e51264213136f7d6a43_hoop.jpg);
+    background-size: 105% 140%;
+    background-position: 2% 95%;
+    position: relative;
+}
+
+
+#nav {
+    display: flex;
+    gap: 1.64vw;
+}
+
+#nav img{
+    height: 7.7vh;
+    width: 6.7vw;
+    object-fit: contain;
+    margin: 0.9vw 1vw 1vw 4.6vw;
+}
+
+#nav h4 {
+    text-transform: uppercase;
+    font-family: gilroy;
+    font-size: 0.84vw;
+    font-weight: 300;
+    color: white;
+    margin: 1.8vw 1vw 1vw 1.9vw;
+}
+
+#slogan {
+    height: 30vh;
+    width: 20vw;
+    position: absolute;
+    top: 35%;
+    right: 8%;
+}
+
+#slogan h1 {
+    font-size: 3.5vw;
+    color: white;
+    font-family: gilbold;
+    font-weight: 800;
+}
+
+#slogan p {
+    color: white;
+    font-size: 1vw;
+}
+
+.page1 button{
+    background-color: transparent;
+    color: white;
+    padding: 1vw 1.5vh;
+    border-radius: 2px;
+    border: none;
+    font-size: 2vw;
+    transition: all ease 0.6s;
+}
+
+.page1 button:hover {
+    background-color: #0000006d;
+}
+
+.page1 #left-button {
+    position: absolute;
+    top: 45%;
+}
+
+.page1 #right-button {
+    position: absolute;
+    right: 0%;
+    top: 45%;
+}
+
+.page2 {
+    height: 97vh;
+    width: 96vw;
+    margin: 2.6vh 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#l1,#l2,#r1,#r2 {
+    height: 75%;
+    width: 99%;
+    background-color: #eeecec;
+    position: relative;
+}
+
+#line1,
+#line2 {
+    height: 100%;
+    width:50%;
+}
+
+#l1 img,
+#r2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#l1,
+#l2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0vw 1vw 1vw 0vw;
+}
+
+#r1,
+#r2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0vw 0vw 1vw 1vw;
+}
+
+#r1 h2,
+#l2 h2,
+#col2 h2,
+#row2 .box div h1,
+#stats-2 div h1,
+#p4-l1 .pic h2,
+#stats h1,
+#greet h1 {
+    letter-spacing: -2px;
+    line-height: 0.8;
+    font-size: 3vw;
+    font-family: gilbold;
+    color: rgb(47, 46, 46);
+}
+
+#r1 p:nth-child(3),
+#l2 p:nth-child(3),
+#col2 p:nth-child(3),
+#stats-2 div p:nth-child(3),
+#p4-l1 .pic p:nth-child(3),
+#greet p{
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+    font-weight: 700;
+}
+
+#r1 p:nth-child(4),
+#l2 p:nth-child(4),
+#col2 p:nth-child(4),
+#p4-l1 .pic p:nth-child(4){
+    line-height: 1.5;
+    font-size: 0.9vw;
+    margin-bottom: 5vh;
+    font-weight: 500;
+}
+
+#r1 div ,
+#l2 div,
+#col2 div {
+    margin-top: 10vh;
+    width: 80%;
+    height: 50%;
+    text-align: center;
+}
+
+#r1 button,
+#l2 button,
+#col2 button,
+#message button {
+    text-transform: uppercase;
+    padding: 2vh 2vw;
+    color: rgb(47, 46, 46);
+    border: 2px solid rgb(47, 46, 46);
+    border-radius: 2px;
+    background-color: #eeecec;
+    transition: all ease 0.5s;
+}
+
+#r1 button:hover,
+#l2 button:hover,
+#col2 button:hover,
+#message button:hover {
+    background-color: rgb(106, 105, 105);
+    border: 2px solid #dfdfdf;
+    border-radius: 2px;
+    color: #fff;
+}
+
+#stats {
+    height: 15%;
+    width: 100.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: -40%;
+}
+
+.page3 {
+    height: 130vh;
+    width: 100.6%;
+    position: absolute;
+    bottom: -108%;
+}
+
+#col2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#row1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#row1 #col1 img {
+    height: 75vh;
+    width: 47.6vw;
+    object-fit: cover;
+}
+
+#row1 #col2 {
+    height: 75vh;
+    width: 47.6vw;
+    background-color: #eeecec;
+}
+
+#row2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5vw;
+}
+
+#row2 .box {
+    height: 50vh;
+    width: 31vw;
+    background-color: #eeecec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#row2 .box div img {
+    height: 8vw;
+    width: 14vh;
+}
+
+#row2 .box div {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#row2 .box div p,
+.pic div div h3 {
+    margin-top: 2vh;
+    font-size: 0.9vw;
+    line-height: 1.5;
+}
+
+#stats-2 {
+    height: 25vh;
+    position: absolute;
+    bottom: -125%;
+    width: 100.6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#stats-2 div {
+    text-align: center;
+}
+
+#row2 #b1:hover {
+    background-color: rgba(133, 133, 93, 0.284);
+    transition: all ease 0.5s;
+}
+
+#row2 #b2:hover {
+    background-color: rgba(133, 93, 93, 0.284);
+    transition: all ease 0.5s;
+}
+
+#row2 #b3:hover {
+    background-color: rgba(93, 100, 133, 0.284);
+    transition: all ease 0.5s;
+}
+
+.page4 {
+    height: 95vh;
+    width: 96.4vw;
+    position: absolute;
+    bottom: -180%;
+    margin-bottom: 2vw;
+}
+
+#greet {
+    height: 20vh;
+    width: 96vw;
+    position: absolute;
+    bottom: -195%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#greet div {
+    text-align: center;
+}
+
+#foot {
+    height: 95vh;
+    width: 96vw;
+    position: absolute;
+    bottom: -245%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#p4-l1,
+#p4-l2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -0.7vw 0 -0.7vw;
+}
+
+.page4 .pic {
+    height: 46.5vh;
+    width: 25.2vw;
+    margin: 0.65vw;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.page4 .pic div {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #0000006c;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.page4 .pic div div h3,
+.page4 .pic div div p {
+    color: white;
+}
+
+.page4 .pic div div {
+    height: 90%;
+    width: 90%;
+    margin: 5% 5% 5% 5% ;
+    border: 2px solid #fff;
+    text-align: center;
+    position: relative;
+}
+
+#p4-l1 .pic:nth-child(2) {
+    background-image: url(552aa58c3b36ca374dffe8ee_port1.jpeg);
+    background-position: left;    
+}
+#p4-l1 .pic:nth-child(3){
+    background-image: url(552aa5e13b36ca374dffe8f5_port2.jpeg);
+}
+#p4-l1 .pic:nth-child(4){
+    background-image: url(552aad0d416f90126f4e859a_port3.jpeg);
+}
+#p4-l2 .pic:nth-child(1){
+    background-image: url(552b90f8a2ec8d8276bfb9dc_port4.jpg);
+}
+#p4-l2 .pic:nth-child(2){
+    background-image: url(552b910bede1286e5f007d0c_port5.jpg);
+    background-position: 50% 0;
+}
+#p4-l2 .pic:nth-child(3){
+    background-image: url(552b9120a2ec8d8276bfb9e1_port6.jpg);
+}
+#p4-l2 .pic:nth-child(4){
+    background-image: url(55299e51264213136f7d6a43_hoop.jpg);
+}
+
+.page4 .pic div div h3 {
+    margin-top: 6vw;
+}
+
+.page4 .pic div:hover {
+    opacity: 1;
+}
+
+#p4-l1 .pic:nth-child(1) {
+    background-color: white;
+}
+
+#message {
+    width: 96vw;
+}
+
+#foot div {
+    height: 90%;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#message p,
+#message input,
+#message textarea {
+    font-family: gilbold;
+    padding: 1vw;
+    width: 80%;
+    border-radius: 4px;
+    margin-left: 8vw;
+}
+
+#message button {
+    margin: 3vw 0vw 0 35vw;
+}
+
+.footer {
+    background-color: rgb(32, 31, 31);
+    position: absolute;
+    top: 327%;
+    width: 100%;
+    height: 33vh;
+    margin-bottom: 2vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer img {
+    height: 6vw;
+    width: 6vw;
+    margin: 2vw 0 2vw 0;
+}
+
+.footer h1{
+    color: rgb(106, 105, 105);
+    margin: 2vw 0 2vw 0;
+}
+.footer p {
+    color: #eeecec;
+}
